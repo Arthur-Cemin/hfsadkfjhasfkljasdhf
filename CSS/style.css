@@ -1,0 +1,37 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Seletor Simples */
+p{
+    font-size: 20px;
+}
+
+th{
+    color: red;
+}
+/* Seletor de ID */
+#titulo{
+    text-align: center;
+}
+
+/* Seletor de Classe */
+.teste{
+    color: white;
+    background-color: black;
+}
+
+/* Seletor de Descendente */
+p u{
+    background-color: blueviolet;
+}
+
+/* Seletor de Crianças */
+p > i{
+    color: red;
+}
+
+/* Seletor de Irmão Adjacente */
+p + u{
+    color: blue;
+}

@@ -3,13 +3,61 @@
     <head>
         <meta charset= "UTF-8">
         <title>Lorem Ipsilum</title>
+        <link rel="stylesheet" href="CSS/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 
     </head>
     <body>
-        <p style="text-align: center;"> este trabalho está em desenvolvimento</p>
+        <h1 id = titulo> este trabalho está em desenvolvimento</h1>
         <a href = https://monkeytype.com target = "_blank" >Teste</a>
 
         <p style="color: red;"> Arthur Cemin</p> 
+        
+        <h2 class="teste"> <b>Teste</b></h2>
+        <h3 class="teste"> <b>Teste2</b></h3>
+
+        <aside>
+            <p>CUUUUUUUUU<u>Seletor de Descendente</u>CUUUUUUUUU</p>
+
+        </aside>
+        <p>
+        <i>Seletor de Crianças</i>
+        <b><i>bunda</i></b>
+        </p>
+        
+        <u>Irmão Adjacente</u>
+
+        <!-- Formulário básico -->
+        <form>
+            <label for="nome"> qual seu nome?</label>
+            <input type="text" id="nome" required placeholder = "seu nome">
+            <br>
+            <button type="submit">confirmar</button>
+        </form>
+        <br>
+        
+        <!-- Caixa de texto -->
+        <form>
+            <textarea name = "mensagem" rows = "10" cols = "50">x
+                teste
+            </textarea>
+        </form>
+        
+        <!-- Formulário Drop-Down-->
+        <form>
+            <label for = "teste"> selecione uma opcao</label>
+            <select name = "teste" id = "teste">
+                <option value = "teste1"> opcao 1</option>
+                <option value = "teste2"> opcao 2</option>
+                <option value = "teste3"> opcao 3</option>
+                <option value = "teste4"> opcao 4</option>
+            </select>
+            <button for = "teste" type = "submit"> confimar</button>
+        </form>
+
         <table>
             <thead>
                 <th>Idade</th>
@@ -52,5 +100,6 @@
         </address>
         
         <p> The <abbr title = "Instituto Federal do Paraná">IFPR</abbr> its a nasty organization</p>
+         
     </body>
 </html>
